@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E912F8C12B3DFA26005F4EBA /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E912F8C02B3DFA26005F4EBA /* ComposableArchitecture */; };
+		E912F8C32B3DFA67005F4EBA /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912F8C22B3DFA67005F4EBA /* CounterFeature.swift */; };
 		E946C3332B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */; };
-		E946C3352B3CC00A0040EC35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3342B3CC00A0040EC35 /* ContentView.swift */; };
+		E946C3352B3CC00A0040EC35 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3342B3CC00A0040EC35 /* CounterView.swift */; };
 		E946C3372B3CC00B0040EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3362B3CC00B0040EC35 /* Assets.xcassets */; };
 		E946C33A2B3CC00B0040EC35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3392B3CC00B0040EC35 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E912F8C22B3DFA67005F4EBA /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-The-Composable-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_The_Composable_ArchitectureApp.swift; sourceTree = "<group>"; };
-		E946C3342B3CC00A0040EC35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E946C3342B3CC00A0040EC35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		E946C3362B3CC00B0040EC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E946C3392B3CC00B0040EC35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,9 +56,10 @@
 			isa = PBXGroup;
 			children = (
 				E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */,
-				E946C3342B3CC00A0040EC35 /* ContentView.swift */,
+				E946C3342B3CC00A0040EC35 /* CounterView.swift */,
 				E946C3362B3CC00B0040EC35 /* Assets.xcassets */,
 				E946C3382B3CC00B0040EC35 /* Preview Content */,
+				E912F8C22B3DFA67005F4EBA /* CounterFeature.swift */,
 			);
 			path = "SwiftUI-The-Composable-Architecture";
 			sourceTree = "<group>";
@@ -145,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E946C3352B3CC00A0040EC35 /* ContentView.swift in Sources */,
+				E912F8C32B3DFA67005F4EBA /* CounterFeature.swift in Sources */,
+				E946C3352B3CC00A0040EC35 /* CounterView.swift in Sources */,
 				E946C3332B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
