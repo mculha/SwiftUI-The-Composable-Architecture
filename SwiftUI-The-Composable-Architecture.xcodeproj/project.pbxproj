@@ -17,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		E912F8C22B3DFA67005F4EBA /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		E9140FE12B3F5F3E00299DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-The-Composable-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_The_Composable_ArchitectureApp.swift; sourceTree = "<group>"; };
 		E946C3342B3CC00A0040EC35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		E946C3312B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				E9140FE12B3F5F3E00299DC1 /* Info.plist */,
 				E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */,
 				E946C3342B3CC00A0040EC35 /* CounterView.swift */,
 				E946C3362B3CC00B0040EC35 /* Assets.xcassets */,
@@ -287,6 +289,7 @@
 				DEVELOPMENT_TEAM = 8F8TZUV25Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-The-Composable-Architecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +319,7 @@
 				DEVELOPMENT_TEAM = 8F8TZUV25Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-The-Composable-Architecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
