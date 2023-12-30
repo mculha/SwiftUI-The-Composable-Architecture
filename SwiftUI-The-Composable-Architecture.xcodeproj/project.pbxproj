@@ -9,15 +9,28 @@
 /* Begin PBXBuildFile section */
 		E912F8C12B3DFA26005F4EBA /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = E912F8C02B3DFA26005F4EBA /* ComposableArchitecture */; };
 		E912F8C32B3DFA67005F4EBA /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E912F8C22B3DFA67005F4EBA /* CounterFeature.swift */; };
+		E9140FF02B40343D00299DC1 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9140FEF2B40343D00299DC1 /* CounterFeatureTests.swift */; };
 		E946C3332B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */; };
 		E946C3352B3CC00A0040EC35 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3342B3CC00A0040EC35 /* CounterView.swift */; };
 		E946C3372B3CC00B0040EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3362B3CC00B0040EC35 /* Assets.xcassets */; };
 		E946C33A2B3CC00B0040EC35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3392B3CC00B0040EC35 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E9140FEA2B40340B00299DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E946C3272B3CC00A0040EC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E946C32E2B3CC00A0040EC35;
+			remoteInfo = "SwiftUI-The-Composable-Architecture";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		E912F8C22B3DFA67005F4EBA /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		E9140FE12B3F5F3E00299DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9140FE62B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-The-Composable-ArchitectureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9140FEF2B40343D00299DC1 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
 		E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-The-Composable-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_The_Composable_ArchitectureApp.swift; sourceTree = "<group>"; };
 		E946C3342B3CC00A0040EC35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
@@ -26,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E9140FE32B40340B00299DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E946C32C2B3CC00A0040EC35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9140FE72B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9140FEF2B40343D00299DC1 /* CounterFeatureTests.swift */,
+			);
+			path = "SwiftUI-The-Composable-ArchitectureTests";
+			sourceTree = "<group>";
+		};
 		E946C3262B3CC00A0040EC35 = {
 			isa = PBXGroup;
 			children = (
 				E946C3312B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture */,
+				E9140FE72B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests */,
 				E946C3302B3CC00A0040EC35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */,
+				E9140FE62B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +107,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E9140FE52B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9140FEE2B40340B00299DC1 /* Build configuration list for PBXNativeTarget "SwiftUI-The-Composable-ArchitectureTests" */;
+			buildPhases = (
+				E9140FE22B40340B00299DC1 /* Sources */,
+				E9140FE32B40340B00299DC1 /* Frameworks */,
+				E9140FE42B40340B00299DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9140FEB2B40340B00299DC1 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-The-Composable-ArchitectureTests";
+			productName = "SwiftUI-The-Composable-ArchitectureTests";
+			productReference = E9140FE62B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E946C32E2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E946C33D2B3CC00B0040EC35 /* Build configuration list for PBXNativeTarget "SwiftUI-The-Composable-Architecture" */;
@@ -107,6 +155,11 @@
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
+					E9140FE52B40340B00299DC1 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+						TestTargetID = E946C32E2B3CC00A0040EC35;
+					};
 					E946C32E2B3CC00A0040EC35 = {
 						CreatedOnToolsVersion = 15.1;
 					};
@@ -129,11 +182,19 @@
 			projectRoot = "";
 			targets = (
 				E946C32E2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture */,
+				E9140FE52B40340B00299DC1 /* SwiftUI-The-Composable-ArchitectureTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E9140FE42B40340B00299DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E946C32D2B3CC00A0040EC35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +207,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E9140FE22B40340B00299DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9140FF02B40343D00299DC1 /* CounterFeatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E946C32B2B3CC00A0040EC35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -158,7 +227,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E9140FEB2B40340B00299DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E946C32E2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture */;
+			targetProxy = E9140FEA2B40340B00299DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		E9140FEC2B40340B00299DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F8TZUV25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mculha.SwiftUI-The-Composable-ArchitectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-The-Composable-Architecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-The-Composable-Architecture";
+			};
+			name = Debug;
+		};
+		E9140FED2B40340B00299DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F8TZUV25Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mculha.SwiftUI-The-Composable-ArchitectureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-The-Composable-Architecture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI-The-Composable-Architecture";
+			};
+			name = Release;
+		};
 		E946C33B2B3CC00B0040EC35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,6 +457,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E9140FEE2B40340B00299DC1 /* Build configuration list for PBXNativeTarget "SwiftUI-The-Composable-ArchitectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9140FEC2B40340B00299DC1 /* Debug */,
+				E9140FED2B40340B00299DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E946C32A2B3CC00A0040EC35 /* Build configuration list for PBXProject "SwiftUI-The-Composable-Architecture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
