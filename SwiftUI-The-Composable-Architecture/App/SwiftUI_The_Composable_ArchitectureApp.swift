@@ -10,15 +10,13 @@ import ComposableArchitecture
 
 @main
 struct SwiftUI_The_Composable_ArchitectureApp: App {
-    
-    @State var store = Store(initialState: CounterFeature.State()) {
-        CounterFeature()
-            ._printChanges()
+    static let store = Store(initialState: AppFeature.State()) {
+        AppFeature()
     }
     
     var body: some Scene {
         WindowGroup {
-            CounterView(store: self.store)
+            AppView(store: Self.store)
         }
     }
 }
