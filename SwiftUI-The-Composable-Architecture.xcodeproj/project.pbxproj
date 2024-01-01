@@ -13,6 +13,7 @@
 		E9140FF22B404BCB00299DC1 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9140FF12B404BCB00299DC1 /* NumberFactClient.swift */; };
 		E9140FF72B4195FD00299DC1 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9140FF62B4195FD00299DC1 /* AppView.swift */; };
 		E9140FF92B4196DE00299DC1 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9140FF82B4196DE00299DC1 /* AppFeature.swift */; };
+		E9140FFF2B41A67100299DC1 /* AppFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9140FFE2B41A67100299DC1 /* AppFeatureTests.swift */; };
 		E946C3332B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */; };
 		E946C3352B3CC00A0040EC35 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3342B3CC00A0040EC35 /* CounterView.swift */; };
 		E946C3372B3CC00B0040EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3362B3CC00B0040EC35 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		E9140FF12B404BCB00299DC1 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 		E9140FF62B4195FD00299DC1 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		E9140FF82B4196DE00299DC1 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		E9140FFE2B41A67100299DC1 /* AppFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeatureTests.swift; sourceTree = "<group>"; };
 		E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-The-Composable-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_The_Composable_ArchitectureApp.swift; sourceTree = "<group>"; };
 		E946C3342B3CC00A0040EC35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				E9140FEF2B40343D00299DC1 /* CounterFeatureTests.swift */,
+				E9140FFE2B41A67100299DC1 /* AppFeatureTests.swift */,
 			);
 			path = "SwiftUI-The-Composable-ArchitectureTests";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9140FFF2B41A67100299DC1 /* AppFeatureTests.swift in Sources */,
 				E9140FF02B40343D00299DC1 /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
