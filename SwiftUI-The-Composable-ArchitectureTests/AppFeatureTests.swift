@@ -12,7 +12,7 @@ import ComposableArchitecture
 @MainActor
 final class AppFeatureTests: XCTestCase {
 
-    func testIncrementInFirstTab() async {
+    func testCounterInFirstTab() async {
         let store = TestStore(initialState: AppFeature.State()) {
             AppFeature()
         }
@@ -28,7 +28,7 @@ final class AppFeatureTests: XCTestCase {
        
     }
     
-    func testIncrementInSecondTab() async {
+    func testCounterInSecondTab() async {
         let store = TestStore(initialState: AppFeature.State()) {
             AppFeature()
         }
