@@ -22,7 +22,7 @@ struct ContactsFeature {
         var contacts: IdentifiedArrayOf<Contact> = []
     }
     
-    enum Action {
+    enum Action: Equatable {
         case addButtonTapped
         case deleteButtonTapped(id: Contact.ID)
         case destination(PresentationAction<Destination.Action>)
@@ -32,12 +32,13 @@ struct ContactsFeature {
         }
     }
     
+    @Dependency(\.uuid) var uuid
     var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
             case .addButtonTapped:
                 state.destination = .addContact(
-                    AddContactFeature.State(contact: Contact(id: UUID(), name: ""))
+                    AddContactFeature.State(contact: Contact(id: self.uuid(), name: ""))
                 )
                 return .none
             case let .destination(.presented(.addContact(.delegate(.saveContact(contact))))):
@@ -77,7 +78,7 @@ extension ContactsFeature {
             case alert(AlertState<ContactsFeature.Action.Alert>)
         }
         
-        enum Action {
+        enum Action: Equatable {
             case addContact(AddContactFeature.Action)
             case alert(ContactsFeature.Action.Alert)
         }
