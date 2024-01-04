@@ -18,6 +18,7 @@
 		E91410042B4359E300299DC1 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91410032B4359E300299DC1 /* ContactsView.swift */; };
 		E91410062B435D8F00299DC1 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91410052B435D8F00299DC1 /* AddContactFeature.swift */; };
 		E914100A2B44732800299DC1 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91410092B44732800299DC1 /* AddContactView.swift */; };
+		E914100C2B47417F00299DC1 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914100B2B47417F00299DC1 /* ContactsFeatureTests.swift */; };
 		E946C3332B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */; };
 		E946C3352B3CC00A0040EC35 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3342B3CC00A0040EC35 /* CounterView.swift */; };
 		E946C3372B3CC00B0040EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3362B3CC00B0040EC35 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		E91410032B4359E300299DC1 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		E91410052B435D8F00299DC1 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 		E91410092B44732800299DC1 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		E914100B2B47417F00299DC1 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
 		E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-The-Composable-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_The_Composable_ArchitectureApp.swift; sourceTree = "<group>"; };
 		E946C3342B3CC00A0040EC35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				E9140FEF2B40343D00299DC1 /* CounterFeatureTests.swift */,
 				E9140FFE2B41A67100299DC1 /* AppFeatureTests.swift */,
+				E914100B2B47417F00299DC1 /* ContactsFeatureTests.swift */,
 			);
 			path = "SwiftUI-The-Composable-ArchitectureTests";
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9140FFF2B41A67100299DC1 /* AppFeatureTests.swift in Sources */,
+				E914100C2B47417F00299DC1 /* ContactsFeatureTests.swift in Sources */,
 				E9140FF02B40343D00299DC1 /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
