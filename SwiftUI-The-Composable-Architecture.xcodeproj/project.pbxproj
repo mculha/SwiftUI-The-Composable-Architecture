@@ -19,6 +19,8 @@
 		E91410062B435D8F00299DC1 /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91410052B435D8F00299DC1 /* AddContactFeature.swift */; };
 		E914100A2B44732800299DC1 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91410092B44732800299DC1 /* AddContactView.swift */; };
 		E914100C2B47417F00299DC1 /* ContactsFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914100B2B47417F00299DC1 /* ContactsFeatureTests.swift */; };
+		E914100F2B489EC300299DC1 /* ContactDetailFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914100E2B489EC300299DC1 /* ContactDetailFeature.swift */; };
+		E91410112B489F3700299DC1 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91410102B489F3700299DC1 /* ContactDetailView.swift */; };
 		E946C3332B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */; };
 		E946C3352B3CC00A0040EC35 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E946C3342B3CC00A0040EC35 /* CounterView.swift */; };
 		E946C3372B3CC00B0040EC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E946C3362B3CC00B0040EC35 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 		E91410052B435D8F00299DC1 /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 		E91410092B44732800299DC1 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		E914100B2B47417F00299DC1 /* ContactsFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeatureTests.swift; sourceTree = "<group>"; };
+		E914100E2B489EC300299DC1 /* ContactDetailFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailFeature.swift; sourceTree = "<group>"; };
+		E91410102B489F3700299DC1 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		E946C32F2B3CC00A0040EC35 /* SwiftUI-The-Composable-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-The-Composable-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E946C3322B3CC00A0040EC35 /* SwiftUI_The_Composable_ArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_The_Composable_ArchitectureApp.swift; sourceTree = "<group>"; };
 		E946C3342B3CC00A0040EC35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,7 @@
 		E9140FF52B41959D00299DC1 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E914100D2B489EAC00299DC1 /* ContactDetail */,
 				E91410002B43590700299DC1 /* Contact */,
 				E9140FFB2B4197E400299DC1 /* App */,
 				E9140FFA2B4197D900299DC1 /* CounterFeature */,
@@ -139,6 +144,15 @@
 				E91410092B44732800299DC1 /* AddContactView.swift */,
 			);
 			path = Contact;
+			sourceTree = "<group>";
+		};
+		E914100D2B489EAC00299DC1 /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E914100E2B489EC300299DC1 /* ContactDetailFeature.swift */,
+				E91410102B489F3700299DC1 /* ContactDetailView.swift */,
+			);
+			path = ContactDetail;
 			sourceTree = "<group>";
 		};
 		E946C3262B3CC00A0040EC35 = {
@@ -296,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E91410112B489F3700299DC1 /* ContactDetailView.swift in Sources */,
 				E9140FF92B4196DE00299DC1 /* AppFeature.swift in Sources */,
 				E914100A2B44732800299DC1 /* AddContactView.swift in Sources */,
 				E912F8C32B3DFA67005F4EBA /* CounterFeature.swift in Sources */,
@@ -305,6 +320,7 @@
 				E9140FF72B4195FD00299DC1 /* AppView.swift in Sources */,
 				E9140FF22B404BCB00299DC1 /* NumberFactClient.swift in Sources */,
 				E91410062B435D8F00299DC1 /* AddContactFeature.swift in Sources */,
+				E914100F2B489EC300299DC1 /* ContactDetailFeature.swift in Sources */,
 				E91410042B4359E300299DC1 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
